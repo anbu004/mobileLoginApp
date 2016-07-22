@@ -1,0 +1,84 @@
+<ion-view view-title="Brand">
+   <ion-content>
+   <div class="list animated bounceInLeft">
+	<div class="item item-body">
+       <label class="item item-input">
+         <!--  <span class="input-label">Label1</span> -->
+	         <input type="text" placeholder="Label1" ng-model="sampleData.labelOne" ionic-autocomplete="{items: items, onSelect:onSelect}" class="input">
+       </label> 
+       
+       <label class="item item-input">
+         <!--  <span class="input-label">Label2</span> -->
+	         <input type="text" placeholder="Label2" ng-model="sampleData.labelTwo" class="input">
+       </label> 
+        <label class="item item-input">
+		  <!--   <span class="input-label">Label4</span> -->
+		     <span class="in_pad2"></span> 
+				<span class="item-icon-right"> <i
+					class="icon ion-ios-calendar-outline"></i> <input type="text" placeholder="Label4"
+					class="input" ng-model="sampleData.labelFour" pick-a-date="depDate"
+					pick-a-date-options="depOptions" placeholder="" />
+			   </span>
+		</label>
+         <label class="item item-select">
+                <span class="input-label">Label3</span>
+                <select ng-model="sampleData.labelThree">
+                    <option>Yes</option>
+                    <option>No</option>
+                </select>
+            </label>
+            
+		<label class="item item-input label5">
+	   <span class="input-label">Label5</span>
+		   <!--   <span class="in_pad1"></span>  -->
+		        <ion-checkbox ng-model="sampleData.labelFive" style="border:none !important;" ng-checked="item.checked" > </ion-checkbox>
+        </label> 
+        
+       <!--  <label class="item item-input"> 
+          <span class="input-label">Label6</span> 
+	           <span class="in_pad3"></span> 
+	              <ion-radio value="AM" id="AM"ng-model="sampleData.labelSix" />AM</ion-radio>
+	              <ion-radio value="PM" id="PM"ng-model="sampleData.labelSix" />PM</ion-radio> 
+	              <ion-radio value="Any" id="Any"ng-model="sampleData.labelSix" />Any </ion-radio>
+         </label> -->
+         
+          <label class="item item-input label5">
+             <span class="input-label">Label7</span>
+                <!--  <span class="in_pad1"></span> -->
+                     <ion-checkbox ng-model="sampleData.labelSeven"style="border:none !important;">lorem ipsum loren</ion-checkbox>
+          </label>
+          
+         <br>
+         
+         <div class=" item item-divider">
+     Label6
+   </div>
+   <label class="item item-radio">
+      <input type="radio" name="group1" ng-model="sampleData.labelSix" value="AM">
+      <div class="item-content">
+         AM
+      </div>
+      <i class="radio-icon ion-checkmark"></i>
+   </label>
+
+   <label class="item item-radio">
+      <input type="radio" name="group2" ng-model="sampleData.labelSix" value="PM">
+      <div class="item-content">
+         PM
+      </div>
+      <i class="radio-icon ion-checkmark"></i>
+   </label>
+         <label class="item item-radio">
+      <input type="radio" name="group3" ng-model="sampleData.labelSix"value="Any">
+      <div class="item-content">
+         Any
+      </div>
+      <i class="radio-icon ion-checkmark"></i>
+   </label>
+             <ion-item  ui-sref="tab.viewBrand({labelOne: sampleData.labelOne, labelTwo: sampleData.labelTwo, labelThree: sampleData.labelThree, labelFour:sampleData.labelFour,labelFive:sampleData.labelFive, labelSix:sampleData.labelSix, labelSeven:sampleData.labelSeven})" class=""><span class="item_hover"><button class="button button-calm button-small">Search</button></span></ion-item>
+           
+           
+  <!--  <ion-item href="#/tab/viewBrand " class=""><span class="item_hover"><button class="button button-calm button-small">Search</button></span></ion-item> -->
+ </div></div>
+<!-- ({{labelOne: sampleData.labelOne, labelTwo: sampleData.labelTwo, labelThree: sampleData.labelThree, labelFour:sampleData.labelFour,labelFive:sampleData.labelFive, labelSix:sampleData.labelSix, labelSeven:sampleData.labelSeven}})-->
+</ion-content> </ion-view>

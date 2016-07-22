@@ -1,0 +1,66 @@
+<ion-view view-title="View Brand"> <ion-content
+	class="padding">
+<div class="item item-body" ng-repeat="search in searchData">
+	<div class="list">
+		<div class="row">
+			<div class="col-sm-2"></div>
+			<div class="col-sm-4">
+				<i class="ion-arrow-expand" style="color: #ooo; font-size: 83px"></i>
+			</div>
+			<div class="col-sm-4 text-center crosslab">
+				label1 {{search.labelOne}} <br> <i
+					class="ion-ios-star-outline" style="color: #ooo; font-size: 22px"></i>
+			</div>
+			<div class="col-sm-2"></div>
+		</div>
+	</div>
+	<div class="list">
+		<label class="item item-input"> <span class="input-label col-sm-6"
+			style="padding-left: 0px;">label2 lorem</span> <ion-checkbox
+				ng-model="sampleData.labelFive" align="center"
+				ng-checked="item.checked" style="border:none !important;">
+			</ion-checkbox>
+			<div class="col-sm-2"></div>
+			<div class="col-sm-4">{{search.labelTwo}}</div>
+		</label> 
+		
+		<br>
+		
+		 <label class="item item-input"> <ion-radio class="col-sm-4"
+				ng-model="labelThree" ng-value="'A'"  style="border:none !important;">label3
+			lorem</ion-radio>
+			<div class="col-sm-7"></div>
+			<div class="col-sm-1"style="padding-left: 4px;">{{search.labelThree}}</div></label>
+			
+			 <label class="item item-input">
+			<ion-radio ng-model="choice" ng-value="'B'" class="col-sm-6"
+				style="border:none !important;">label4 lorem</ion-radio>
+			<div class="col-sm-2"></div>
+			<div class="col-sm-4">{{search.labelFour}}</div>
+		</label>
+		
+		 <label class="item item-input"> <ion-radio ng-model="label5" class="col-sm-6"
+				ng-value="'B'" style="border:none !important;">label5
+			lorem</ion-radio>
+			<div class="col-sm-2"></div>
+			<div class="col-sm-4">{{search.labelFive}}</div></label> 
+			
+			<label class="item item-input">
+			<ion-radio ng-model="labelSix" ng-value="'B'" class="col-sm-6"
+				style="border:none !important;">label6 lorem</ion-radio>
+			<div class="col-sm-2"></div>
+			<div class="col-sm-4">{{search.labelSix}}</div>
+		</label>
+		<br>
+		 <label class="item item-input"><span class="input-label col-sm-7"
+			style="padding-left: 17px;">Label7</span>
+		<div class="col-sm-1"></div>
+			<div class="col-sm-4">{{search.labelSeven}}</div></label>
+		<br>
+		<label class="item item-input"><span class="input-label"
+			style="padding-left: 17px;"><button class="button button-calm button-small">Action</button></span>
+         </label>
+	</div>
+</div>
+
+</ion-content> </ion-view>

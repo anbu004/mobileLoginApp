@@ -1,0 +1,122 @@
+/* .item-checkbox {
+    padding-left: 43px  !important;
+} */
+.crosslab{
+	padding:18px 0px 0px 21px !important
+}
+.sidMenu{
+	padding-left:96px !important
+}
+.sidMenu1{
+	padding-left:88px !important
+}
+.sidMenu2{
+	padding-left:155px !important
+}
+.check{
+	
+}
+/* .label5{
+	 padding-left: 59px !important;
+} */
+/* 
+.input[type="text"] {
+	border: 1px solid lightgray !important;
+	
+}
+.input[type="checkbox"] {
+	border: 1px solid lightgray !important;
+	
+}
+.input[type="radio"] {
+	border: 1px solid lightgray !important;
+	-webkit-appearance:none !important;
+  width:16px !important;
+  height:16px !important;
+  border-radius:50% !important;
+	
+}
+.input[type="date"] {
+	border: 1px solid lightgray !important;
+	padding-left: 11px;
+}
+
+.item-input {
+	align-items: center !important;
+	position: relative !important;
+	padding: 11px 11px 11px 11px !important;
+}
+
+.item-select select {
+	flex: 1 1 220px !important;
+	border: 1px solid lightgray !important;
+	position: initial !important;
+	height: 34px;
+	direction: unset !important;
+	 padding: 8px !important;
+}
+.in_pad{
+	padding-left: 25px !important;
+}
+.input{
+	padding-right:25px !important;
+}
+.Label5{
+	padding-left: 9px !important;
+	
+}
+.labelTex{
+	 color: #282828;
+    font-family: "Times New Roman";
+	font-size: 16px !important;
+	font-weight: bold !important;
+}
+.in_pad1{
+	padding-left: 59px !important;
+}
+.in_pad3{
+	padding-left:29px !important;
+}
+.in_pad2{
+	padding-left: 18px !important;
+}
+.side_label {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 16px;
+	font-weight: bold;
+	 padding: 8px;
+}
+
+.s_label {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 16px;
+	 padding: 8px;
+}
+.check{
+	padding: 11px 11px 11px 11px !important;
+	float: right  !important;
+}
+.item-checkbox-right .checkbox input,
+.item-checkbox-right .checkbox-icon {
+  float: right !important;
+}
+
+.input-label{
+	 color: #282828;
+    font-family: "Times New Roman";
+	font-size: 16px !important;
+	font-weight: bold !important;
+}
+
+ input:focus{
+    outline: none;
+    box-shadow: 0px 0px 5px #61C5FA;
+    border-color: #5AB0DB;
+}
+
+input:hover {
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+
+ */

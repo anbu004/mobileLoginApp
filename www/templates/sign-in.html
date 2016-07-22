@@ -1,0 +1,27 @@
+<ion-view view-title="Log In">
+        <ion-content>
+<!-- Form Module-->
+<div class="spacePadding"></div>
+<div class="module form-module">
+ <div class="list card padding">
+            <label class="item item-input">
+                <span class="input-label">Email</span>
+                <input type="text" ng-model="user.email">
+            </label>
+            <label class="item item-input">
+                <span class="input-label">Password</span>
+                <input type="password" ng-model="user.password">
+            </label>
+            <button ng-click="signIn(user)" class="button button-block button-calm">
+                Sign In
+            </button>
+        </div>
+        <div class="list" style="text-align:center">
+           
+               <a ng-click="modal.show()" class="button button-small button-outline icon-left ion-person-add button-calm"> Create New Account</a>
+         
+        </div>
+
+  </div>
+        </ion-content>
+      </ion-view>
